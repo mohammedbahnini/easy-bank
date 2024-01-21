@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Easybank landing page</title>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- style -->
+  <link href="css/app.css" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="menu hide show-on-md">
+    <div class="container">
+      <ul>
+        <li>
+          <a href="#" class="grayish-blue">Home</a>
+        </li>
+        <li>
+          <a href="#" class="grayish-blue">About</a>
+        </li>
+        <li>
+          <a href="#" class="grayish-blue">Contact</a>
+        </li>
+        <li>
+          <a href="#" class="grayish-blue">Blog</a>
+        </li>
+        <li>
+          <a href="#" class="grayish-blue">Careers</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <header>
+         <div class="container ">
+          <nav class="flex jc-space-between align-center">
+            <a href="#">
+              <img src="images/logo.svg" alt="Logo">
+            </a>
+
+            <ul class="flex hide-on-md">
+              <li>
+                <a href="#" class="grayish-blue">Home</a>
+              </li>
+              <li>
+                <a href="#" class="grayish-blue">About</a>
+              </li>
+              <li>
+                <a href="#" class="grayish-blue">Contact</a>
+              </li>
+              <li>
+                <a href="#" class="grayish-blue">Blog</a>
+              </li>
+              <li>
+                <a href="#" class="grayish-blue">Careers</a>
+              </li>
+            </ul>
+
+            <a href="#" class="btn hide-on-md">Request Invite</a>
+            <button class="btn-menu">
+              <img src="images/icon-hamburger.svg" alt="Humberger" class="open">
+              <img src="images/icon-close.svg" alt="Close" class="close">
+            </button>
+          </nav>
+         </div>
+  </header>
+
+  <main>
+    <!-- intro -->
+    <section class="intro">
+      <div class="container flex">
+         <div class="text">
+          <h1 class="title dark-blue fw-100">Next generation digital banking</h1>
+          <p class="caption grayish-blue" >Take your financial life online. Your Easybank account will be a one-stop-shop 
+            for spending, saving, budgeting, investing, and much more.</p>
+            
+            <a href="#" class="btn">Request Invite</a>
+         </div>
+         <div class="img">
+          <img src="images/image-mockups.png" alt="">
+         </div>
+      </div>
+    </section>
+
+    <!-- sectoin 1 -->
+    <section class="features">
+
+      <div class="container">
+        <div class="header">
+          <h2 class="title dark-blue fw-100">Why choose Easybank?</h2>
+          <p class="caption grayish-blue">
+            We leverage Open Banking to turn your bank account into your financial hub. Control 
+            your finances like never before.
+          </p>
+        </div>
+        <div class="body">
+
+          <div class="card">
+            <div class="card-icon">
+              <img src="images/icon-online.svg" alt="Online">
+            </div>
+            <div class="card-body">
+              <h3 class="title dark-blue">
+                Online Banking
+              </h3>
+              <p>
+                Our modern web and mobile applications allow you to keep track of your finances 
+                wherever you are in the world.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">
+              <img src="images/icon-budgeting.svg" alt="Online">
+            </div>
+            <div class="card-body">
+              <h3 class="title dark-blue">
+                Simple Budgeting
+              </h3>
+              <p>
+                See exactly where your money goes each month. Receive notifications when you’re 
+  close to hitting your limits.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">
+              <img src="images/icon-onboarding.svg" alt="Online">
+            </div>
+            <div class="card-body">
+              <h3 class="title dark-blue">
+                Fast Onboarding
+              </h3>
+              <p>
+                We don’t do branches. Open your account in minutes online and start taking control 
+  of your finances right away.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">
+              <img src="images/icon-api.svg" alt="Online">
+            </div>
+            <div class="card-body">
+              <h3 class="title dark-blue">
+                Open API
+              </h3>
+              <p>
+                Manage your savings, investments, pension, and much more from one account. Tracking 
+  your money has never been easier.
+              </p>
+            </div>
+          </div>  
+
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- articles -->
+    <section class="articles">
+      <div class="container">
+
+        <div class="header">
+          <h3 class="title dark-blue">Latest Articles</h3>
+        </div>
+  
+        <div class="body">
+
+
+          <div class="article">
+            <div class="article-image">
+              <img src="images/image-currency.jpg" alt="">
+            </div>
+            <div class="article-body">
+              <span class="author">By Claire Robinson</span>
+              <h4 class="title">Receive money in any currency with no fees</h4>
+              <p>The world is getting smaller and we’re becoming more mobile. So why should you be 
+                forced to only receive money in a single …</p>
+            </div>
+          </div>
+
+          <div class="article">
+            <div class="article-image">
+              <img src="images/image-restaurant.jpg" alt="">
+            </div>
+            <div class="article-body">
+              <span class="author">By Wilson Hutton</span>
+              <h4 class="title">Treat yourself without worrying about money</h4>
+              <p>
+                Our simple budgeting feature allows you to separate out your spending and set 
+                realistic limits each month. That means you …</p>
+            </div>
+          </div>
+
+          <div class="article">
+            <div class="article-image">
+              <img src="images/image-plane.jpg" alt="">
+            </div>
+            <div class="article-body">
+              <span class="author">By Wilson Hutton</span>
+              <h4 class="title">Take your Easybank card wherever you go</h4>
+              <p>We want you to enjoy your travels. This is why we don’t charge any fees on purchases 
+                while you’re abroad. We’ll even show you …</p>
+            </div>
+          </div>
+
+          <div class="article">
+            <div class="article-image">
+              <img src="images/image-confetti.jpg" alt="">
+            </div>
+            <div class="article-body">
+              <span class="author">By Claire Robinson</span>
+              <h4 class="title">Our invite-only Beta accounts are now live!</h4>
+              <p>After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
+                It’s easy to request an invite through the site ...</p>
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+      </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+      <div class="container flex ">
+
+        <div class="f-1">
+          <a href="#" class="logo">
+            <img src="images/logo-white.svg" alt="Logo">
+          </a>
+          <ul class="social-media flex jc-space-between">
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-square-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-square-youtube"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-square-x-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-pinterest"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+          </ul> 
+
+        </div>
+
+        <div class="f-2 flex">
+          <ul>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#">Careers</a>
+            </li>
+            <li>
+              <a href="#">Support</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="f-3 flex">
+          <a href="#" class="btn">Request Invite</a>
+          <span class="copyright">© Easybank. All Rights Reserved</span>
+        </div>
+
+      </div>
+     
+    </footer>
+  </main>
+
+
+  <script>
+    window.addEventListener('load' , function(){
+      document.querySelector('.intro').classList.add('visible');
+
+      // features
+      const observer = new IntersectionObserver((entries)=>{
+        entries.forEach( (entry)=>{
+          if( entry.isIntersecting )
+          {
+            entry.target.classList.add('visible');
+            //observer.unobserve( entry.target)
+          }
+        })
+      } , {
+        threshold : .3
+      })
+
+      const cards = document.querySelector('.features .body');
+      const articles = document.querySelector('.articles .body');
+      observer.observe(cards);
+      observer.observe(articles);
+
+
+      // menu 
+      const btnMenu = document.querySelector('.btn-menu');
+      const menu = document.querySelector('.menu');
+
+      btnMenu.addEventListener('click' , ()=>{
+        btnMenu.classList.toggle('opened');
+        menu.classList.toggle('visible');
+
+        document.body.style.overflow =  btnMenu.classList.contains('opened') ? 'hidden' : 'initial'; 
+      });
+
+    });
+  </script>
+
+
+</body>
+</html>

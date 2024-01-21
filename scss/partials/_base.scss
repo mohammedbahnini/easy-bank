@@ -1,0 +1,112 @@
+// container
+.container{
+    max-width: calc(1110px + 4rem );
+    margin: 0 auto ;
+    padding: 0 2rem ;
+    @include sm{
+        padding: 0 24px;
+    }
+}
+
+// text colors 
+.dark-blue{
+    color: $dark-blue;
+}
+.grayish-blue{
+    color: $grayish-blue;
+}
+.white{
+    color: white;
+}
+// text transform
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+// text align
+.text-center{
+    text-align: center;
+}
+// text font weight
+.fw-100{
+    font-weight: 100;
+}
+.fw-200{
+    font-weight: 200;
+}
+.fw-300{
+    font-weight: 300;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fw-700{
+    font-weight: 700;
+}
+.fw-800{
+    font-weight: 800;
+}
+.fw-900{
+    font-weight: 900;
+}
+// text font size
+
+// display flex
+.flex{
+    display: flex;
+}
+.jc-space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+// display for mobile
+.hide{
+    display: none ;
+}
+.show-on-md{
+    @include md{
+        display: block;
+    }
+}
+.show-on-sm{
+    @include sm{
+        display: block ;
+    }
+}
+.hide-on-md{
+    @include md{
+        display: none !important;
+    }
+}
+.hide-on-sm{
+    @include sm{
+        display: none !important;
+    }
+}
+// btn
+.btn{
+    color: white;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 8px 33px;
+    border-radius: 22px;
+    background-image: $linear-green;
+    cursor: pointer;
+    transition: .2s linear;
+    &:hover{
+        opacity: .4;
+        //background-image: linear-gradient(135deg, rgba(51, 211, 94 , .4) 0%, rgba( 42, 182, 217, .4 ) 99.58%);
+    }
+}
